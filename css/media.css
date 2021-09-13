@@ -1,0 +1,158 @@
+@media (max-width: 680px) {
+
+ header .container .nav i{
+     display: block;
+}
+  header .container h2 {
+    font-size: larger;
+    margin-right: -46px;
+}
+
+header .container .nav ul li{ 
+     border-bottom: 1px solid darkgray;
+}
+header .container .nav ul{ 
+  display: none;
+}
+header .container .nav:hover ul{
+    background-color: #FDFCF8;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:150px;
+    left:0;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 10;
+}
+    .section .container .s {
+  left: 25%;
+}
+.contact-us .container .sections {
+    grid-template-columns: repeat(auto-fill, 277px);
+}
+.pic img {
+    width: 151px;}
+}
+@media (max-width: 990px) {
+  header .container {
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+  }
+ header .container .nav ul li {
+    padding: 20px 10px;}
+.special .container {
+ text-align: center;
+
+ }
+.special .container .col { 
+max-width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+.special .container .col .text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.special .container .col .text h1{
+  margin: 0 auto 20px;
+  max-width: 100%;
+      text-align: center;
+}
+.special .container .col .text h6 {
+  margin: 20px auto;
+}
+.special .container .col .images{
+  display: none;
+}
+}
+/************************/
+@media (min-width: 1200px) {
+  header .container h2 {
+    /*margin-right: 186px;*/
+  }
+
+header .container .icons {
+    padding-left: 40px;
+    }
+
+  }
+
+  /********************/ 
+  @media (max-width: 490px) {
+    header .container {
+      min-height: 74.82px;
+    }
+    header .container .icons img{
+padding-right: 4px;
+}
+.landing .container {
+  padding-top: 0;
+  padding-bottom: 0;
+    height: 429px;
+
+}
+.container h1{
+  padding-top: 5px;
+  max-width: 203px;
+  font-size: 27px;
+}
+.landing .container .images img {
+width: 201px;
+}
+.landing .container .images img:first-child  {
+  width: 381px;
+  top: 21px;
+  z-index: 1;
+}
+.landing .container .images img:last-child {
+  top: -123px;
+    left: 38%;
+    width: 200px;
+}
+.section .container{
+height: 229px;
+
+}
+.section .container .radial{
+    top: -101px;
+    height: 425px;
+}
+.section .container .s {
+  top: -10%;
+    left: 22%;
+}
+.section .container .s .images img {
+  width: 238px;
+  left: -11%;
+}
+.section .container h6.spec{
+    padding: 8px 42px;
+     left: 20%;
+    top: 257%;
+
+}
+.section .container .s .text p{
+width: fit-content;
+}
+
+.follow .container .images {
+  grid-template-columns: repeat(auto-fill, 220px);
+}
+.footer {
+  height: 261px;
+}
+.cricle {
+    background-image: radial-gradient(farthest-side at 50% 48%,#f5f1e8 100%, white 32%);
+    height: 524px;
+    top: -57px; 
+}
+
+.pic img{
+      width: 100px;
+}
+.contact-us .container .head span {
+    padding: 0 30px 0 30px;
+}
+}
