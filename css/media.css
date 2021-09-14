@@ -69,28 +69,23 @@ max-width: 100%;
 }
 /************************/
 @media (min-width: 1200px) {
-  header .container h2 {
-    /*margin-right: 186px;*/
-  }
-
 header .container .icons {
-    padding-left: 40px;
+  padding-left: 40px;
     }
-
   }
 
   /********************/ 
-  @media (max-width: 490px) {
-    header .container {
-      min-height: 74.82px;
+@media (max-width: 490px) {
+header .container {
+  min-height: 74.82px;
     }
-    header .container .icons img{
-padding-right: 4px;
+header .container .icons img{
+  padding-right: 4px;
 }
 .landing .container {
   padding-top: 0;
   padding-bottom: 0;
-    height: 429px;
+  height: 429px;
 
 }
 .container h1{
@@ -99,7 +94,7 @@ padding-right: 4px;
   font-size: 27px;
 }
 .landing .container .images img {
-width: 201px;
+  width: 201px;
 }
 .landing .container .images img:first-child  {
   width: 381px;
@@ -108,35 +103,18 @@ width: 201px;
 }
 .landing .container .images img:last-child {
   top: -123px;
-    left: 38%;
-    width: 200px;
+  left: 38%;
+  width: 200px;
 }
-.section .container{
-height: 229px;
-
+.section .container .cricle2 {
+  height: 642px;
+  top: 230px;
 }
-.section .container .radial{
-    top: -101px;
-    height: 425px;
-}
-.section .container .s {
-  top: -10%;
-    left: 22%;
-}
-.section .container .s .images img {
-  width: 238px;
-  left: -11%;
-}
-.section .container h6.spec{
-    padding: 8px 42px;
-     left: 20%;
-    top: 257%;
-
-}
-.section .container .s .text p{
-width: fit-content;
-}
-
+.section .container h5{ 
+  top: 69%;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  }
 .follow .container .images {
   grid-template-columns: repeat(auto-fill, 220px);
 }
@@ -144,15 +122,15 @@ width: fit-content;
   height: 261px;
 }
 .cricle {
-    background-image: radial-gradient(farthest-side at 50% 48%,#f5f1e8 100%, white 32%);
-    height: 524px;
-    top: -57px; 
+  background-image: radial-gradient(farthest-side at 50% 48%,#f5f1e8 100%, white 32%);
+  height: 524px;
+  top: -57px; 
 }
 
 .pic img{
-      width: 100px;
+  width: 100px;
 }
 .contact-us .container .head span {
-    padding: 0 30px 0 30px;
+  padding: 0 30px 0 30px;
 }
 }
