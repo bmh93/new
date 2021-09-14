@@ -116,6 +116,9 @@ header .container .icons img{
   left: 50%;
   transform: translate(-50%, 25%);
   }
+  .section .pic2 img {
+    top: 20%;}
+
 .follow .container .images {
   grid-template-columns: repeat(auto-fill, 220px);
 }
