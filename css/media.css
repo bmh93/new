@@ -66,6 +66,11 @@ max-width: 100%;
 .special .container .col .images{
   display: none;
 }
+.section .pic2 img {
+    top: 23%;}
+.container h1{
+font-size: 40px;
+}
 }
 /************************/
 @media (min-width: 1200px) {
@@ -116,9 +121,9 @@ header .container .icons img{
   left: 50%;
   transform: translate(-50%, 25%);
   }
-  .section .pic2 img {
-    top: 20%;}
-
+.section .pic2 img {
+    top: 16%; }
+    
 .follow .container .images {
   grid-template-columns: repeat(auto-fill, 220px);
 }
