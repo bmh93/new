@@ -90,6 +90,7 @@ header .container .icons img{
 }
 .container h1{
   padding-top: 5px;
+      padding-bottom: 10px;
   max-width: 203px;
   font-size: 27px;
 }
